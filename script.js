@@ -48,8 +48,8 @@ function updateProgress() {
 }
 
 // Click to seek within the video
-functionsetProgress(e) {
-    console.log(e);
+function setProgress(e) {
+  console.log(e);
 }
 
 // Volume Controls --------------------------- //
@@ -63,4 +63,4 @@ playBtn.addEventListener("click", togglePlay);
 video.addEventListener("click", togglePlay);
 video.addEventListener("timeupdate", updateProgress);
 video.addEventListener("canplay", updateProgress);
-progressRange.addEventListener('click', setProgress);
+progressRange.addEventListener("click", setProgress);
